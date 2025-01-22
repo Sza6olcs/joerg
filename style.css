@@ -25,16 +25,15 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 100%;
+    width: 100%;
     padding-bottom: 1rem;
-    
     
 }
 #logo {
     
  z-index: 2;
- max-width: 100dvw;
- translate:0 -39%;
+ max-width: 100%;
+ translate:0 -35%;
  margin-bottom: -5rem;
  
  
@@ -43,10 +42,9 @@ header {
 
 #profile-picture {
     z-index: 1;
-    max-width: 90%;
-    margin-top: 1rem;
-    
-    
+    max-width: 100%;
+    translate: -2% 0;
+    padding-top: 2rem;
     
     
 }
